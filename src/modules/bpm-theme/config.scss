@@ -1,0 +1,15 @@
+@import '~@sweetui/sweet-style/config.scss';
+
+// 定义字体
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+// 全局风格设定
+
+$--color-primary: #58B2DC;
+$brand-primary: $--color-primary;
+
+$body-background: #F6F6F6;
+$background-lightgray: #f1f1f1;
+
+$frame-main-padding: 12px;
+$frame-main-paddingleft: 90px;

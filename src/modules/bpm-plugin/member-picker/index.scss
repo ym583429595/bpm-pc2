@@ -1,0 +1,51 @@
+$bpm-member-picker-heeader-height: 56px;
+.bpm-member-picker {
+    .bpm-member-picker-header {
+        text-align: left;
+        height: $bpm-member-picker-heeader-height;
+
+        background-color: $background-lightgray;
+        padding: 0 16px;
+        font-size: 14px;
+        border-bottom: $--border-base;
+    }
+    .bpm-member-picker-content {
+        height: calc(100% - #{$bpm-member-picker-heeader-height});
+        overflow: auto;
+        background-color: #f9f9f9;
+    }
+    .bpm-member-picker-left{
+        border-right: $--border-base;
+        .el-tree{
+            background: transparent;
+            color:#333;
+        }
+        .bpm-member-picker-content{
+            padding-top: 16px;
+        }
+        .el-tree-node:focus>.el-tree-node__content{
+            background-color: #FFE6B0;
+        }
+
+    }
+
+    .bpm-member-picker-right{
+        border-left: $--border-base;
+    }
+    .sweet-modal {
+        max-width: 1200px !important;
+        height: 80%;
+        max-height: 800px;
+        .sweet-content {
+            padding: 0 !important;
+            height: calc(100% - 65px);
+            text-align: left;
+        }
+    }
+
+    .sweet-content-content,
+    .sweet-content-content > .el-row,
+    .sweet-content-content > .el-row > .el-col {
+        height: 100%;
+    }
+}

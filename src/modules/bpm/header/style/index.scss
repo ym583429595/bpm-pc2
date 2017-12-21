@@ -1,0 +1,61 @@
+header {
+    padding: 0 20px;
+    background: $brand-primary;
+    height: 100%;
+    color: white;
+    .logo {
+        width: auto;
+        text-decoration: none;
+        overflow: hidden;
+        .iconfont {
+            display: inline-block;
+            height: 50px;
+            line-height: 50px;
+            font-size: 150px;
+            color: white;
+        }
+    }
+
+    .header-avatar {
+        height: 100%;
+        margin-right: 16px;
+    }
+    .avatar {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: #000;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+    button {
+    	color: white;
+    }
+    .language-btn {
+    	margin-right: 20px;
+    	button {
+    		border: 0;
+    		line-height: 50px;
+    		color: #eee;
+    		padding: 0;
+    		padding: 0 10px;
+    		position: relative;
+    		&.active {
+    			color: white;
+    		}
+    		&:first-child:after {
+    			content: '';
+    			display: block;
+    			position: absolute;
+    			width: 1px;
+    			height: 12px;
+    			background: white;
+    			top: 50%;
+    			right: 0;
+    			margin-top: -6px;
+    		}
+    	}
+    }
+}

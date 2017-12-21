@@ -1,0 +1,49 @@
+{
+    "code": "success",
+    "data": [
+    {
+        "title": "bpm",
+        "icon": "",
+        "url": "/index",
+        "role": [""],
+        "children": [
+        {
+            "title": "流程中心",
+            "icon": "el-icon-location",
+            "url": "/index/flow",
+            "separate": true,
+            "children": []
+        },{
+            "title": "我的草稿",
+            "icon": "el-icon-location",
+            "url": "/index/draft",
+            "separate": true,
+            "children": []
+        },{
+            "title": "历史流程",
+            "icon": "el-icon-location",
+            "url": "/index/history",
+            "separate": true,
+            "children": []
+        },{
+            "title": "统计信息",
+            "icon": "el-icon-location",
+            "url": "/index/statistics",
+            "separate": true,
+            "children": []
+        },{
+            "title": "消息",
+            "icon": "el-icon-location",
+            "url": "/index/message",
+            "separate": true,
+            "children": []
+        },{
+            "title": "设置",
+            "icon": "el-icon-location",
+            "url": "/index/options",
+            "separate": true,
+            "children": []
+        }]
+    }],
+    "message": "success"
+}

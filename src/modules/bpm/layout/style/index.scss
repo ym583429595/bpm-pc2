@@ -1,0 +1,50 @@
+.bpm-index-frame {
+    background: $body-background;
+
+    .bpm-index-frame__main {
+        width: 100%;
+        position: relative;
+        padding-left: $frame-main-paddingleft;
+
+        .bpm-index-frame__left {
+            // width: 90px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            background: white;
+
+            .el-menu {
+            	border:0;
+            	&.el-menu--collapse {
+            		width: 90px;
+								.el-menu-item {
+									height: 90px;
+									padding: 0;
+									border-bottom: 1px solid #ddd;
+									&.is-active {
+										background: $--color-primary;
+										border-color: $--color-primary;
+									}
+								}
+            		.bpm-menu-item {
+            			text-align: center;
+            			height: 90px;
+            			p {
+            				line-height: 14px;
+            				font-size: 14px;
+            			}
+            			i {
+            				width: 30px;
+            				font-size: 30px;
+            				color: inherit;
+            			}
+            		}
+            	}
+            }
+        }
+        .bpm-index-frame__body {
+            padding: $frame-main-padding;
+        }
+    }
+}

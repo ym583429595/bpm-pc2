@@ -1,0 +1,22 @@
+.sw-frame {
+    height: 100%;
+    position: relative;
+}
+
+.sw-frame-head {
+    .sw-frame-head-inner {
+        width: 100%;
+        z-index: 1000;
+    }
+    &.immersive {
+        height: 0!important;
+    }
+    &.fixed,
+    &.immersive {
+        .sw-frame-head-inner {
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+    }
+}
